@@ -1,0 +1,405 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_API\\Ze_Delivery_API.csproj": {}
+  },
+  "projects": {
+    "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_API\\Ze_Delivery_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_API\\Ze_Delivery_API.csproj",
+        "projectName": "Ze_Delivery",
+        "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_API\\Ze_Delivery_API.csproj",
+        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_API\\obj\\publish\\linux-x64\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_DI\\Ze_Delivery_DI.csproj": {
+                "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_DI\\Ze_Delivery_DI.csproj"
+              },
+              "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj": {
+                "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[3.1.9, 3.1.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Application\\Ze_Delivery_Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Application\\Ze_Delivery_Application.csproj",
+        "projectName": "Ze_Delivery_Application",
+        "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Application\\Ze_Delivery_Application.csproj",
+        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj": {
+                "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_DI\\Ze_Delivery_DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_DI\\Ze_Delivery_DI.csproj",
+        "projectName": "Ze_Delivery_DI",
+        "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_DI\\Ze_Delivery_DI.csproj",
+        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Application\\Ze_Delivery_Application.csproj": {
+                "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Application\\Ze_Delivery_Application.csproj"
+              },
+              "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj": {
+                "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj"
+              },
+              "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Infra\\Ze_Delivery_Infra.csproj": {
+                "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Infra\\Ze_Delivery_Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj",
+        "projectName": "Ze_Delivery_Domain",
+        "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj",
+        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Infra\\Ze_Delivery_Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Infra\\Ze_Delivery_Infra.csproj",
+        "projectName": "Ze_Delivery_Infra",
+        "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Infra\\Ze_Delivery_Infra.csproj",
+        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj": {
+                "projectPath": "C:\\Sistemas\\Ze_Delivery_Source\\Ze_Delivery_Domain\\Ze_Delivery_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
